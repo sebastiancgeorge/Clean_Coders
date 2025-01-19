@@ -11,7 +11,7 @@ class ChatbotPage extends StatefulWidget {
 
 class _ChatbotPageState extends State<ChatbotPage> {
   final TextEditingController _messageController = TextEditingController();
-  final String _apiKey = 'AIzaSyCakH9RmPVmIOM4xpnO4FD-0WvFQcvtvgM'; // Replace with your actual API key
+  final String _apiKey = 'api_key'; // Replace with your actual API key
   List<Map<String, String>> _messages = [];
 
   void _sendMessage() async {
